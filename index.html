@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Giphy API</title>
+
+	<!-- Bootstrap link -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- link to font awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- link for our awesome style sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<!-- start of a great bootstrap container -->
+	<!-- jumbotron header -->
+	<div class="container">
+		<div class="jumbotron">
+
+			<h1><i class="fa fa-picture-o"></i> Giphy Moto!</h1>
+
+		</div>
+
+		<!-- search from title -->
+
+		<div class="row">
+			<div class="col-xs-12">
+
+				<h3><i class="fa fa-motorcycle"></i> Add a Motorcycle</h3>
+
+			</div>
+
+			<div class="col-xs-12">
+
+			<form>
+				<div class="form-group">
+
+					<input type="text" class="form-control" id="addMotorcycle">
+
+				</div>
+
+					<!-- button triggers new bike to be added -->
+					<button type="submit" id="newBike" class="btn btn-primary"><i class="fa fa-search"></i> Submit</button>
+			</form>
+
+			<br>
+
+			<div id="motorcycles"></div>
+
+			<div id="gifs"></div>
+
+		</div>
+	</div>
+
+	<!-- end of our great bootstrap container div -->
+	</div>
+
+	<!-- Bootstrap jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap JavaScript link -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- My perosnal JavaScript link for maximimum awesome functionality -->
+	<script type="text/javascript" src="assets/javascript/api-giphy.js"></script>
+
+</body>
+</html>
