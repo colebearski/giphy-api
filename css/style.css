@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+	color: white;
+	margin-right: 125px;
+}
+
+.jumbotron {
+	background-image: url("../../ResumeHeader.png");
+	color: #ff8c00;
+}
+
+.btn-primary {
+	background-color: #ff8c00;
+	border-color: black;
+	margin-right: 10px;
+}
+
+
