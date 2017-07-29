@@ -44,7 +44,7 @@ $(".moto").on("click", function() {
             motoDiv.append(p);
             motoDiv.append(motoImage);
             $("#gifs").prepend(motoDiv);
-            
+
         };
     })
 })
@@ -65,8 +65,14 @@ $("#newBike").on("click", function() {
 
 renderButtons();
 
+// getting the gifs to pause and resume on click
 
+$(document).on('mouseover', function() {
+    $(this).attr('src', $(this).data('animated'));
+});
 
-// we want the html buttons to be in a string in the js file here. and then once you select add a blank.... and hit submit
-// the submission gets pushed to the string as a button and then once the button is clicked you get your gifs. 
-// right now they're being prepended. we will want to replace them going forward
+$(document).on('mouseleave', function() {
+    $(this).attr('src', $(this).data('paused'));
+});
+
+// Stills needs some work, will probably want to include some global variables and specify data types throughout
